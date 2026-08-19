@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diário de Sobrevivência — Blog de Jogos Co-op</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <p class="eyebrow">registro nº 04 — sessão ativa</p>
+      <h1>Diário de Sobrevivência</h1>
+      <p class="subtitle">Anotações de quem já morreu no gancho, queimou o jantar e ainda assim voltou pra fila de novo.</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container nav-inner">
+      <span class="nav-logo">DdS<span class="dot">●</span></span>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="layout container" id="inicio">
+
+    <main>
+
+      <section id="posts">
+        <h2 class="section-title">Últimos registros</h2>
+
+        <article class="post card" id="destaque">
+          <span class="tag tag-dbd">Terror assimétrico</span>
+          <img src="img/dbd.jpg" alt="Espaço reservado para print de Dead by Daylight">
+          <h2>Sobrevivendo ao gerador: 3 lições de Dead by Daylight</h2>
+          <p>Toda partida começa igual: quatro sobreviventes, um mapa enorme e a certeza de que alguém vai ficar pendurado no gancho antes do segundo gerador ligar. A tensão não vem só do assassino — vem do silêncio, dos passos que talvez sejam só sua imaginação.</p>
+          <p>Depois de muitas partidas, aprendi que correr sozinho raramente funciona. O jogo recompensa quem se comunica, quem sacrifica uma perseguição pra salvar o time, e quem aceita que às vezes o melhor plano é simplesmente distrair o killer por tempo suficiente.</p>
+          <a class="read-more" href="#posts">Leia mais →</a>
+        </article>
+
+        <article class="post card">
+          <span class="tag tag-overcooked">Cooperativo caótico</span>
+          <img src="img/overcooked.jpg" alt="Espaço reservado para print de Overcooked">
+          <h2>Overcooked e a arte de gritar receitas em cima da hora</h2>
+          <p>Não existe amizade que sobreviva incólume a uma cozinha pegando fogo enquanto o cronômetro corre. Overcooked transforma tarefas simples — cortar, cozinhar, servir — em uma coreografia caótica onde um segundo de hesitação derruba o pedido inteiro no chão.</p>
+          <p>O segredo não é ser rápido, é dividir bem o espaço da cozinha e aceitar que alguém vai ter que lavar a louça enquanto o resto do time apaga o incêndio literal do fogão. Comunicação vale mais que reflexo aqui.</p>
+          <a class="read-more" href="#posts">Leia mais →</a>
+        </article>
+
+        <article class="post card">
+          <span class="tag tag-dontstarve">Sobrevivência</span>
+          <img src="img/dontstarve.jpg" alt="Espaço reservado para print de Don't Starve">
+          <h2>Don't Starve: a fogueira como o único ponto de segurança</h2>
+          <p>Em Don't Starve, o dia é para explorar e coletar recursos com pressa; a noite é para rezar pra fogueira não apagar. Poucos jogos fazem uma simples chama parecer tão preciosa quanto essa, quando o mapa some na escuridão e os sons ao redor começam a se aproximar.</p>
+          <p>A sanidade do personagem é tão importante quanto a fome ou a vida, e isso muda completamente como você joga: às vezes a decisão mais estratégica é recuar, plantar uma base e aceitar que sobreviver é mais sobre paciência do que sobre pressa.</p>
+          <a class="read-more" href="#posts">Leia mais →</a>
+        </article>
+
+        <article class="post card">
+          <span class="tag tag-ittakestwo">Aventura a dois</span>
+          <img src="img/ittakestwo.jpg" alt="Espaço reservado para print de It Takes Two">
+          <h2>It Takes Two: quando o jogo obriga vocês a se resolverem</h2>
+          <p>Jogado só em dupla, It Takes Two constrói cada fase em torno da dependência mútua: um personagem abre caminho, o outro atravessa; um distrai, o outro ataca. Não dá pra terminar sozinho, e é exatamente essa restrição que torna cada capítulo memorável.</p>
+          <p>Mais do que mecânica, o jogo vira metáfora — cada quebra-cabeça reforça que cooperação exige escuta e paciência, não só reflexo. É daqueles jogos que terminam e deixam vontade imediata de começar outro, só pra continuar jogando junto.</p>
+          <a class="read-more" href="#posts">Leia mais →</a>
+        </article>
+
+      </section>
+
+      <section class="table-section">
+        <h2 class="section-title">Calendário de postagens</h2>
+        <table>
+          <caption>Próximos registros programados para o diário</caption>
+          <thead>
+            <tr>
+              <th scope="col">Data</th>
+              <th scope="col">Título</th>
+              <th scope="col">Categoria</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>02/09</td>
+              <td>Builds de perkset pra sobreviventes iniciantes</td>
+              <td>Dead by Daylight</td>
+            </tr>
+            <tr>
+              <td>09/09</td>
+              <td>Os melhores pratos (e piores acidentes) da cozinha</td>
+              <td>Overcooked</td>
+            </tr>
+            <tr>
+              <td>16/09</td>
+              <td>Guia de inverno: como não virar picolé</td>
+              <td>Don't Starve</td>
+            </tr>
+            <tr>
+              <td>23/09</td>
+              <td>Os capítulos mais difíceis (e mais bonitos) do jogo</td>
+              <td>It Takes Two</td>
+            </tr>
+            <tr>
+              <td>30/09</td>
+              <td>Ranking pessoal: qual desses jogos pede mais confiança no time</td>
+              <td>Geral</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="sobre">
+        <h2 class="section-title">Sobre o blog</h2>
+        <div class="card">
+          <p>O Diário de Sobrevivência nasceu de várias noites de call jogando com amigos, tentando ligar geradores, servir pedidos e atravessar quebra-cabeças sem se matar de raiva um do outro. Aqui eu registro impressões, dicas e histórias sobre os jogos cooperativos e de sobrevivência que mais jogo atualmente: Dead by Daylight, Overcooked, Don't Starve e It Takes Two. A ideia não é fazer guia definitivo de nada, e sim compartilhar o que aprendo (e erro) enquanto jogo, na esperança de que sirva de ponto de partida pra quem também gosta desse tipo de experiência em grupo.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <aside>
+      <div class="card sidebar-card">
+        <h2>Categorias do arquivo</h2>
+        <ul class="menu sidebar-list">
+          <li><a href="#posts">Terror assimétrico</a></li>
+          <li>Cooperativo caótico</li>
+          <li>Sobrevivência</li>
+          <li>Aventura a dois</li>
+          <li>Anotações de sessão</li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+
+  <section id="contato" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <p>Jogou algum desses jogos e quer trocar ideia, sugerir pauta ou só reclamar que morreu de novo no gancho? Fale comigo por aqui:</p>
+      <ul class="contact-links">
+        <li><a href="mailto:diario.sobrevivencia@exemplo.com">diario.sobrevivencia@exemplo.com</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">@diariodesobrevivencia</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>Criado por <strong>João Paulo de Almeida Rodrigues</strong></p>
+      <p>2026</p>
+      <p class="footer-note">Blog criado para a disciplina de Front-End.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

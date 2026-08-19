@@ -1,0 +1,25 @@
+{
+  "name": "projetoblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acxuao/ProjetoBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Acxuao/ProjetoBlog/issues"
+  },
+  "homepage": "https://github.com/Acxuao/ProjetoBlog#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
